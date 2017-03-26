@@ -1,0 +1,255 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    max-width: 100%;
+    height: 100px;
+    background: url(../images/header-footer.png); 
+    border-bottom: 4px solid #B03060; 
+}
+
+.menu-content {
+    width: 980px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo { 
+    float: left; 
+    display: inline;
+    width: 210px; 
+    height: 56px; 
+    margin: 23px 0 0 12px;
+}
+
+.menu {
+    position: relative; 
+    float: right; 
+    display: inline;
+    margin-top: 32px;
+ }
+
+.menu ul { 
+    list-style: none;
+}
+
+.menu ul li { 
+    position: relative; 
+    float: left; 
+    display: inline; 
+    margin-right: 10px; 
+}
+
+.menu ul li a { 
+    width: 84px; 
+    height: 44px; 
+    display: block; 
+    color: #474747; 
+    font-size: 13px; 
+    text-align: center; 
+    line-height: 43px; 
+    padding-right: 2px; 
+}
+
+.menu ul li a:hover, .menu ul li a.active, .menu ul li a.hover { 
+    background: url(../images/nav-hover.gif); 
+    text-decoration: none;
+}
+
+.slider {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.slider-left {
+    float: left;
+    width: 323px;
+    height: 224px;
+    background: url(../images/slider-left.png);
+}
+
+.slider-left h2 {
+    padding-top: 18px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.slider-left p {
+    padding-top: 18px;
+    padding-left: 32px;
+    padding-right: 23px;
+    color: #FFFFFF;
+    font-family: Arial;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.slider-left .order-now {
+    display: block;
+    width: 134px;
+    height: 38px;
+    background: url(../images/ordernow.gif);
+    font-size: 16px;
+    color: #fff;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.slider-left .order-now:hover {
+    background-position: 0 bottom;
+}
+
+.slider-right {
+    float: right;
+}
+
+.main {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.sidebar {
+    float: left;
+    margin-top: 15px;
+    width: 323px;
+}
+
+.side-here {
+    width: 323px;
+    font-weight: normal;
+    background: #DCDCDC;
+}
+
+.side-here h2 {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+
+.side-here p {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4c4c;
+}
+
+.latest-project {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.latest-project h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #4c4c4c;
+    border-bottom: 5px solid #DCDCDC;
+}
+
+.latest-project p {
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4c4c;
+}
+
+.content {
+    float: right;
+    width: 653px;
+}
+
+.what-is-this-place {
+    width: 595px;
+    margin-top: 24px;
+    margin-left: 45px;
+    padding-bottom: 5px;
+}
+
+.what-is-this-place h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 5px solid #DCDCDC;
+    color: #4c4c4c;
+}
+
+.what-is-this-place p {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4c4c;
+}
+
+.common-block {
+	width: 595px;
+	margin-top: 24px;
+    margin-left: 45px;
+}
+
+.who-we-are {
+    width: 290px;
+    float: left;
+}
+
+.who-we-are h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 5px solid #DCDCDC;
+    color: #4c4c4c;
+}
+
+.who-we-are p {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4c4c;
+}
+
+.what-we-do {
+    width: 290px;
+    float: right;
+}
+
+.what-we-do h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 5px solid #DCDCDC;
+    color: #4c4c4c;
+}
+
+.what-we-do p {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4c4c4c;
+}
+
+footer {
+    max-width: 100%;
+    height: 87px;
+    background: url(../images/header-footer.png);
+}
